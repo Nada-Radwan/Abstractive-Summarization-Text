@@ -17,7 +17,14 @@ This project implements an **abstractive text summarization** model using **Dist
 ---
 
 ## 📂 Project Structure
-
+Abstractive-Summarization/
+├─ Train.py # Traininng model and tokenizer
+├─ summarization_model/ # Trained model and tokenizer
+├─ evaluateModel.py # Evaluate model with ROUGE
+├─ infer.py # Simple infering example
+├─ app.py #FastAPI
+├─ tastImpots.py # Certainit
+└─ README.md # Project documentation
 ---
 
 ## 🛠 Installation
@@ -25,3 +32,4 @@ This project implements an **abstractive text summarization** model using **Dist
 ```bash
 git clone https://github.com/Nada-Radwan/Abstractive-Summarization-Text.git
 cd Abstractive-Summarization-Text
+
