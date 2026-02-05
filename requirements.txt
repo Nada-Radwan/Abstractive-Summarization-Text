@@ -1,0 +1,12 @@
+torch
+transformers
+datasets
+evaluate
+rouge-score
+sentencepiece
+accelerate
+fastapi
+uvicorn
+numpy
+pandas
+tqdm
