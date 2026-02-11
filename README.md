@@ -27,11 +27,11 @@ The system includes:
 
 ## 🚀 Features
 
-- ✔️ Abstractive summarization (sequence-to-sequence generation)
-- ✔️ Fine-tuned **DistilBART** model
-- ✔️ Evaluation using **ROUGE-1, ROUGE-2, ROUGE-L**
-- ✔️ REST API deployment using **FastAPI + Uvicorn**
-- ✔️ Modular and clean project structure
+-  Abstractive summarization (sequence-to-sequence generation)
+-  Fine-tuned **DistilBART** model
+-  Evaluation using **ROUGE-1, ROUGE-2, ROUGE-L**
+-  REST API deployment using **FastAPI + Uvicorn**
+-  Modular and clean project structure
 
 ---
 
@@ -144,25 +144,17 @@ http://127.0.0.1:8000/docs
 
 You can test the `/summarize` endpoint directly from Swagger UI.
 
-### Example Request
-
-```json
-{
-  "text": "Artificial intelligence is transforming industries worldwide by enabling machines to perform tasks that once required human intelligence."
-}
-```
-
----
-
 ## 📈 Example Output
 
 **Input:**
 
-> Artificial intelligence has become one of the most transformative technologies of the modern era...
+> Artificial intelligence has become one of the most transformative technologies of the modern era. Over the past decade, rapid advances in machine learning and deep neural networks have enabled computers to perform tasks that were once considered uniquely human. These tasks include image recognition, natural language understanding, and complex decision-making processes. As a result, artificial intelligence systems are now being integrated into many aspects of daily life. In the healthcare industry, artificial intelligence is being used to assist doctors in diagnosing diseases, analyzing medical images, and predicting patient outcomes. AI-powered systems can process vast amounts of medical data in a fraction of the time required by humans, helping clinicians make more accurate and timely decisions. The impact of artificial intelligence is also evident in the financial sector. Banks and financial institutions rely on AI algorithms to detect fraudulent transactions, assess credit risk, and automate customer support through intelligent chatbots. Despite its many benefits, the widespread adoption of artificial intelligence presents significant challenges. Ethical considerations such as transparency, accountability, and fairness must be addressed to ensure responsible use. Looking ahead, artificial intelligence is expected to play an even greater role in shaping the future of work and society. The key to maximizing its benefits lies in thoughtful implementation and continuous oversight.
+
 
 **Generated Summary:**
 
-> Artificial intelligence is transforming industries by enabling machines to perform complex tasks once limited to humans.
+> Artificial intelligence is transforming industries through advances in machine learning and neural networks. It is widely used in healthcare and finance to improve efficiency and decision-making. Despite its benefits, ethical challenges must be addressed to ensure responsible adoption.
+
 
 ---
 
@@ -171,7 +163,6 @@ You can test the `/summarize` endpoint directly from Swagger UI.
 - Add beam search optimization
 - Improve summary length control
 - Add Docker support
-- Deploy to Azure or AWS
 - Add model versioning and logging
 
 ---
@@ -188,3 +179,4 @@ GitHub: https://github.com/Nada-Radwan
 ## ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
+
